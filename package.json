@@ -1,0 +1,26 @@
+{
+  "name": "cyber-defense-c2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "大模型+智能体+本体驱动的多局域网网络攻防指挥控制决策系统 · 前端（React + Vite）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:offline": "OFFLINE=1 vite build",
+    "preview": "vite preview",
+    "preview:offline": "vite preview --outDir out-offline"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "~5.8.3",
+    "vite": "^8.0.1",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}

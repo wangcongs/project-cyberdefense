@@ -1,0 +1,11 @@
+AttackAssessment { 
+    incident_id: "INC-20260918-01", 
+    attack_techniques: ["T1078.002", "T1021.001"], 
+    affected_assets: [ "asset:RND-WS-23", "asset:RND-FILE-01" ], 
+    account: "account:LAB:rnd_chen", 
+    confidence_level: "HIGH", 
+    evidence_refs: [ 
+        "EVT-EDR-001", 
+        "EVT-NDR-002", 
+        "EVT-IAM-003" ] 
+}
